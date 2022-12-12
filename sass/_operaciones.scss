@@ -1,0 +1,9 @@
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.mixin1{
+    @include sizes (300px, 30px);
+    border: 2px solid red;
+}
